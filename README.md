@@ -1,5 +1,3 @@
 # ProgressBar
 
-Simple Angular progress bar
-
-Live: https://elelad.github.io/progress-bar/
+Simple Angular progress bar: https://elelad.github.io/progress-bar/
