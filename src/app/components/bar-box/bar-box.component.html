@@ -1,0 +1,13 @@
+<div class="pBox">
+  <div *ngIf="counerService.counting">Time Left: {{counerService.secondsLeft}} Seconds</div>
+  <div>{{counerService.msg}}</div>
+  <app-bar [width]="counerService.width"></app-bar>
+  <div>
+    <button [class.active]="counerService.counting" (click)="start()">
+      <span *ngIf="counerService.counting">Stop</span>
+      <span *ngIf="!counerService.counting">Start</span>
+    </button>
+    <input [(ngModel)]="countTo" type="number" autofocus="true" />
+    <button (click)="counerService.resetTimer()">Cancel</button>
+  </div>
+</div>
