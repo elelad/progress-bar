@@ -3,8 +3,10 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%);
+    width: 80vw;
     min-width: 350px;
-    height: 300px;
+    max-width: 600px;
+    height: 200px;
     border: solid 1px white;
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgba(255,255,255,0.7);
