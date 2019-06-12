@@ -7,7 +7,7 @@ import { CounterService } from 'src/app/services/counter.service';
   styleUrls: ['./bar-box.component.scss']
 })
 export class BarBoxComponent {
-  private countTo = 5;
+  public countTo = 5;
 
   constructor(public counerService: CounterService) { }
 
